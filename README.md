@@ -1,4 +1,4 @@
-Hindley-Milner Type System REPL
+## Hindley-Milner Type System REPL
 A simple REPL for a simple programming language that includes integer constants, variables, function applications, and lambda expressions, using the Hindley-Milner type system to infer the types of expressions.
 
 Getting Started
