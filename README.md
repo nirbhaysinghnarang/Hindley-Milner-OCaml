@@ -18,13 +18,3 @@ Copy code
 # repl ();;
 The REPL will then prompt you for input, and you can enter expressions in the language that the REPL understands. The REPL will parse your input, infer the type of the expression, and print the inferred type.
 
-For example, you might see something like this:
-
-Copy code
-> 1
-Type: Int
-> x
-Type: String
-> (lam x:Int (plus x 1))
-Type: (Int -> Int)
-To exit the REPL, you can press Ctrl-D or type #exit;;.
