@@ -14,4 +14,3 @@ Then, you can load the code for the REPL into the toplevel by copying and pastin
 
 Once the code is loaded, you can start the REPL by calling the repl function.
 
-C
