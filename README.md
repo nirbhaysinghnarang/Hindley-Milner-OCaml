@@ -12,9 +12,6 @@ To start the REPL, open a terminal and enter the command ocaml. You should see a
 
 Then, you can load the code for the REPL into the toplevel by copying and pasting it into the toplevel, or by using the #use "filename.ml" directive to load it from a file.
 
-Once the code is loaded, you can start the REPL by calling the repl function, like this:
+Once the code is loaded, you can start the REPL by calling the repl function.
 
-Copy code
-# repl ();;
-The REPL will then prompt you for input, and you can enter expressions in the language that the REPL understands. The REPL will parse your input, infer the type of the expression, and print the inferred type.
-
+C
