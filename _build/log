@@ -1,0 +1,135 @@
+# dune utop src
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/nirbhaysingh/typ
+# Auto-detected concurrency: 8
+$ /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -config > /var/folders/1b/t1j1xrdn05ngjcpzn3gtwcqc0000gn/T/dune_908562_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "/Users/nirbhaysingh/.opam/cs3110-2022fa/lib/toplevel"
+#  ; ocaml_bin = External "/Users/nirbhaysingh/.opam/cs3110-2022fa/bin"
+#  ; ocaml = Ok External "/Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocaml"
+#  ; ocamlc = External "/Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/nirbhaysingh/.opam/cs3110-2022fa/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/nirbhaysingh/typ"
+#        ; "INSIDE_DUNE" : "/Users/nirbhaysingh/typ/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/nirbhaysingh/typ/_build/install/default/lib"
+#        ; "OCAMLPATH" : "/Users/nirbhaysingh/typ/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/nirbhaysingh/typ/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths = [ External "/Users/nirbhaysingh/.opam/cs3110-2022fa/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.14.0"
+#      ; standard_library_default =
+#          "/Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml"
+#      ; standard_library = "/Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin20.6.0"
+#      ; target = "aarch64-apple-darwin20.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X031"
+#      ; cmi_magic_number = "Caml1999I031"
+#      ; cmo_magic_number = "Caml1999O031"
+#      ; cma_magic_number = "Caml1999A031"
+#      ; cmx_magic_number = "Caml1999Y031"
+#      ; cmxa_magic_number = "Caml1999Z031"
+#      ; ast_impl_magic_number = "Caml1999M031"
+#      ; ast_intf_magic_number = "Caml1999N031"
+#      ; cmxs_magic_number = "Caml1999D031"
+#      ; cmt_magic_number = "Caml1999T031"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I src/.simpl.objs/byte -no-alias-deps -opaque -o src/.simpl.objs/byte/simpl.cmo -c -impl src/simpl.ml-gen)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamllex -q -o src/lexer.ml src/lexer.mll)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt -modules -impl src/ast.ml) > _build/default/src/.simpl.objs/ast.ml.d
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt -modules -impl src/eval.ml) > _build/default/src/.simpl.objs/eval.ml.d
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/menhir src/parser.mly --base src/parser --infer-write-query src/parser__mock.ml.mock)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt -modules -impl src/lexer.ml) > _build/default/src/.simpl.objs/lexer.ml.d
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt -modules -impl src/parser__mock.ml.mock) > _build/default/src/.simpl.objs/parser__mock.ml.mock.d
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.simpl.objs/byte -no-alias-deps -opaque -open Simpl -o src/.simpl.objs/byte/simpl__Ast.cmo -c -impl src/ast.ml)
+$ (cd _build/.sandbox/62a5399340657e28441dabd39bdcfd2a/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I src/.simpl.objs/byte -open Simpl -short-paths -i -impl src/parser__mock.ml.mock) > _build/.sandbox/62a5399340657e28441dabd39bdcfd2a/default/src/parser__mock.mli.inferred
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/menhir src/parser.mly --base src/parser --infer-read-reply src/parser__mock.mli.inferred)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt -modules -intf src/parser.mli) > _build/default/src/.simpl.objs/parser.mli.d
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamldep.opt -modules -impl src/parser.ml) > _build/default/src/.simpl.objs/parser.ml.d
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.simpl.objs/byte -no-alias-deps -opaque -open Simpl -o src/.simpl.objs/byte/simpl__Parser.cmi -c -intf src/parser.mli)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.simpl.objs/byte -no-alias-deps -opaque -open Simpl -o src/.simpl.objs/byte/simpl__Lexer.cmo -c -impl src/lexer.ml)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.simpl.objs/byte -no-alias-deps -opaque -open Simpl -o src/.simpl.objs/byte/simpl__Eval.cmo -c -impl src/eval.ml)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I src/.utop/.utop.eobjs/byte -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/findlib -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lambda-term -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/logs -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt/unix -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt_react -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/mew -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/mew_vi -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/compiler-libs -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/threads -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocplib-endian -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocplib-endian/bigstring -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/react -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/result -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/trie -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uchar -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/utop -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uucp -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uuseg -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uutf -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/zed -I src/.simpl.objs/byte -no-alias-deps -o src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl src/.utop/utop.ml-gen)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -bin-annot -I src/.simpl.objs/byte -intf-suffix .ml -no-alias-deps -opaque -open Simpl -o src/.simpl.objs/byte/simpl__Parser.cmo -c -impl src/parser.ml)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -a -o src/simpl.cma src/.simpl.objs/byte/simpl.cmo src/.simpl.objs/byte/simpl__Ast.cmo src/.simpl.objs/byte/simpl__Parser.cmo src/.simpl.objs/byte/simpl__Lexer.cmo src/.simpl.objs/byte/simpl__Eval.cmo)
+$ (cd _build/default && /Users/nirbhaysingh/.opam/cs3110-2022fa/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o src/.utop/utop.exe -output-complete-exe /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/compiler-libs/ocamlcommon.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/compiler-libs/ocamlbytecomp.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/compiler-libs/ocamltoplevel.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/findlib/findlib.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/findlib/findlib_top.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/logs/logs.cma -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt/lwt.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/logs/logs_lwt.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/unix.cma -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/bigarray.cma -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocplib-endian/ocplib_endian.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml/threads/threads.cma -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/ocaml /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt/unix/lwt_unix.cma -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt/unix /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/react/react.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lwt_react/lwt_react.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/result/result.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uutf/uutf.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uucp/uucp.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/uuseg/uuseg.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/zed/zed.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/trie/trie.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/mew/mew.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/mew_vi/mew_vi.cma /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lambda-term/lambda_term.cma -I /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/lambda-term /Users/nirbhaysingh/.opam/cs3110-2022fa/lib/utop/uTop.cma src/simpl.cma src/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

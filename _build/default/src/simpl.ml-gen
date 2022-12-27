@@ -1,0 +1,14 @@
+(** @canonical Simpl.Ast *)
+module Ast = Simpl__Ast
+
+
+(** @canonical Simpl.Eval *)
+module Eval = Simpl__Eval
+
+
+(** @canonical Simpl.Lexer *)
+module Lexer = Simpl__Lexer
+
+
+(** @canonical Simpl.Parser *)
+module Parser = Simpl__Parser
